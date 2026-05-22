@@ -44,3 +44,13 @@ This project aims to analyze healthcare performance, patient distribution, opera
 - DAX
 - Power Query
 - CSV Dataset
+
+powerbi
+dashboard
+data-analysis
+business-intelligence
+healthcare-dashboard
+dax
+data-visualization
+
+
