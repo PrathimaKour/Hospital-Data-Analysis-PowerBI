@@ -1,0 +1,19 @@
+Hospitals generate large amounts of operational and financial data daily. 
+This project aims to analyze patient volume, doctor availability, medical expenses, hospital performance, and department efficiency using Power BI.
+
+The dashboard helps identify operational trends, expense distribution, staffing workload, and healthcare demand across cities and departments.
+
+1. Monitor patient and doctor distribution
+2. Analyze medical expenses across hospitals and cities
+3. Track monthly healthcare expense trends
+4. Evaluate department-wise patient load
+5. Identify operational inefficiencies
+6. Support hospital management decision-making
+
+| KPI                | DAX                       |
+| ------------------ | ------------------------- |
+| Total Patients     | SUM(Patients_count)       |
+| Total Expenses     | SUM(Medical_Expenses)     |
+| Avg Stay Days      | DATEDIFF avg              |
+| Total Doctors      | SUM(Doctors_count)        |
+| No. of Departments | DISTINCTCOUNT(Department) |
